@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main/style.css">
+    <link rel="stylesheet" href="pets.css">
+    <title>shelter</title>
+</head>
+<body>
+    <div class="blackout"></div>
+    <header class="header header--light">
+        <div class="wrapper">
+            <div class="header__inner">
+                <div class="header__essential">
+                    <a class="logo" href="../main/main.html">
+                        <h1 class="logo__title logo__title--dark">Cozy House</h1>
+                        <span class="logo__subtitle logo__subtitle--dark">Shelter for pets in Boston</span>
+                    </a>
+                    <button class="header__burger header__burger--black">
+                        <span></span>
+                    </button>
+                </div>
+                <nav class="menu">
+                    <ul class="list">
+                        <li class="list__item"><a class="list__link " href="../main/main.html">About the shelter</a></li>
+                        <li class="list__item"><a class="list__link list-link list__link--active" href="../pets/pets.html">Our pets</a></li>
+                        <li class="list__item"><a class="list__link list-link--disabled" disabled>Help the shelter</a></li>
+                        <li class="list__item"><a class="list__link list-link--disabled" disabled>Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="pets-friends">
+            <div class="wrapper">
+                <div class="pets-friends__inner">
+                    <h3 class="out-friends__title">Our friends who<br> are looking for a house</h3>
+                    <div class="pets-friends-slider">
+                        <div class="pets-friends-slider__inner">
+                            <!-- <button class="slider__item">
+                                <img src="../../assets/pets-katrine.png" alt="pets photo">
+                                <h4 class="slider__pet-name">Katrine</h4>
+                                <a class="btn slider__item-link" href="#">Learn more</a>
+                            </button> -->
+                        </div>
+                        <div class="pets-friends-slider__controls">
+                            <button class="arrow-btn" id='first-page'>
+                                <svg class="arrow-left" width="25" height="11" viewBox="0 0 25 11" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.0055 6.08789L0.972265 10.7852V9.44727L8.48203 5.53125L0.972265 1.625V0.287109L10.0055 4.98438V6.08789ZM24.0766 6.08789L15.0434 10.7852V9.44727L22.5531 5.53125L15.0434 1.625V0.287109L24.0766 4.98438V6.08789Z"/>
+                                </svg>
+                            </button>
+                            <button class="arrow-btn" id='previous-page'>
+                                <svg class="arrow-left" width="10" height="11" viewBox="0 0 10 11" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.04102 6.08789L0.0078125 10.7852V9.44727L7.51758 5.53125L0.0078125 1.625V0.287109L9.04102 4.98438V6.08789Z"/>
+                                </svg>
+                            </button>
+                            <button class="arrow-btn arrow-btn-filled page-number" id='page-number'>
+                                
+                            </button>
+                            <button class="arrow-btn" id='next-page'>
+                                <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.04102 6.08789L0.0078125 10.7852V9.44727L7.51758 5.53125L0.0078125 1.625V0.287109L9.04102 4.98438V6.08789Z"/>
+                                </svg>
+                            </button>
+                            <button class="arrow-btn" id='last-page'>
+                                <svg width="25" height="11" viewBox="0 0 25 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.0055 6.08789L0.972265 10.7852V9.44727L8.48203 5.53125L0.972265 1.625V0.287109L10.0055 4.98438V6.08789ZM24.0766 6.08789L15.0434 10.7852V9.44727L22.5531 5.53125L15.0434 1.625V0.287109L24.0766 4.98438V6.08789Z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__inner">
+                <div class="footer__block footer__contacts">
+                    <h3 class="footer__title">For questions and suggestions</h3>
+                    <a class="footer__block-item footer__email" href="mailto:email@shelter.com">
+                        <img src="../../assets/icons/icon-email.svg" alt="email icon">
+                        <span class="footer__item-text">email@shelter.com</span>
+                    </a>
+                    <a class="footer__block-item footer__phone" href="tel:+13 674 567 75 54">
+                        <img src="../../assets/icons/icon-phone.svg" alt="phone icon">
+                        <span class="footer__item-text">+13 674 567 75 54</span>
+                    </a>
+                </div>
+                <div class="footer__block footer__location">
+                    <h3 class="footer__title">We are waiting for your visit</h3>
+                    <a class="footer__block-item footer__location-point" href="https://goo.gl/maps/QbGLAxEWa9m1uFhJ8" target="_blank">
+                        <img src="../../assets/icons/icon-marker.svg" alt="location icon">
+                        <span class="footer__item-text">1 Central Street, Boston (entrance from the store)</span>
+                    </a>
+                    <a class="footer__block-item footer__location-point" href="https://goo.gl/maps/ouPWmEVa9xatXptE6" target="_blank">
+                        <img src="../../assets/icons/icon-marker.svg" alt="location icon">
+                        <span class="footer__item-text">18 South Park, London </span>
+                    </a>
+                </div>
+                <img class="footer__img" src="../../assets/footer-puppy.png" alt="footer puppy image">
+            </div>
+        </div>
+    </footer>
+    <div class="modal-popup">
+        <button class="modal-popup-close">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.42618 6.00003L11.7046 1.72158C12.0985 1.32775 12.0985 0.689213 11.7046 0.295433C11.3108 -0.0984027 10.6723 -0.0984027 10.2785 0.295433L5.99998 4.57394L1.72148 0.295377C1.32765 -0.098459 0.68917 -0.098459 0.295334 0.295377C-0.0984448 0.689213 -0.0984448 1.32775 0.295334 1.72153L4.57383 5.99997L0.295334 10.2785C-0.0984448 10.6723 -0.0984448 11.3108 0.295334 11.7046C0.68917 12.0985 1.32765 12.0985 1.72148 11.7046L5.99998 7.42612L10.2785 11.7046C10.6723 12.0985 11.3108 12.0985 11.7046 11.7046C12.0985 11.3108 12.0985 10.6723 11.7046 10.2785L7.42618 6.00003Z" fill="#292929"/>
+            </svg>
+        </button>
+        <div class="modal-popup__inner">
+            <!-- <img src="../../assets/pets-jennifer.png" alt="pets image" class="pets-image">
+            <div class="pets-info">
+                <h3 class="pets-info__name">Jennifer</h3>
+                <h4 class="pets-info__breed">Dog - Labrador</h4>
+                <p class="pets-info__descr">Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</p>
+                <ul class="pets-info__additional">
+                    <li class="pets-info__additional-item"><span>Age:</span> 2 months</li>
+                    <li class="pets-info__additional-item"><span>Inoculations:</span> none</li>
+                    <li class="pets-info__additional-item"><span>Diseases:</span> none</li>
+                    <li class="pets-info__additional-item"><span>Parasites:</span> none</li>
+                </ul>
+            </div> -->
+        </div>
+    </div>
+    <script src="../main/script.js"></script>
+    <script src="pagination.js"></script>
+    <script src="../main/popup.js"></script>
+</body>
+</html>
